@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chungus Casting | Kullanıcı Girişi</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<form class="form-signin well mt-5 mb-5" method="post">
+			<h2 class="form-signin-heading text-center">Welcome!</h2>
+			<label for="inputEmail" class="sr-only">Email</label>
+			<input type="email" id="email" class="form-control" placeholder="Email" required autofocus>
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" id="password" class="form-control" placeholder="Password" required>
+			<button class="btn btn-lg btn-primary btn-block" type="button" id="loginBtn" >Login</button>
+			<hr>
+			<p class="text-center text-muted">
+				Eğer üye değilseniz hemen <a href="register.html">üye olun.</a>
+			</p>
+		</form>
+
+	</div> <!-- /container -->
+
+  <script type="text/javascript" src="assets/js/jquery-3.2.1.js" ></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+  <script type="text/javascript" src="assets/js/app/login.js" ></script>
+</body>
+</html>
